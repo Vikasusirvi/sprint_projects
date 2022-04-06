@@ -1,0 +1,43 @@
+<html xmlns:th="https://thymeleaf.org">  
+<body style="background-color:powderblue;"> 
+<h1 style="color: rgb(0,102,28);font-size:400%;">THIS IS TABLE OF LAPTOPS</h1>
+<table>   
+<h2 style="color: rgb(145, 20, 133); font-size:200%">LAPTOP -1</h2>
+<tr>   
+<td><h4 style="color:rgb(128, 0, 0);">Laptop Name: </h4></td>   
+<td><h4 th:text="${laptop[1].name}" style="color:red;"></h4></td>   
+</tr>   
+<tr>   
+<td><h4 style="color:rgb(128, 0, 0);">Laptop Brand: </h4></td>   
+<td><h4 th:text="${laptop[1].brand}" style="color:red;"></h4></td>   
+</tr>   
+<tr>   
+<td><h4 style="color:rgb(128, 0, 0);">Laptop Description: </h4></td>   
+<td><h4 th:text="${laptop[1].description}" style="color:red;"></h4></td>   
+</tr> 
+<tr>   
+<td><h4 style="color:rgb(128, 0, 0);">Laptop Price: </h4></td>   
+<td><h4 th:text="${laptop[1].price}" style="color:red;"></h4></td>   
+</tr> 
+</table>  
+<table>   
+<h2 style="color: rgb(145, 20, 133); font-size:200%">LAPTOP-2</h2>
+<tr>   
+<td><h4 style="color:rgb(128, 0, 0);">Laptop Name: </h4></td>   
+<td><h4 th:text="${laptop[1].name}" style="color:red;"></h4></td>   
+</tr>   
+<tr>   
+<td><h4 style="color:rgb(128, 0, 0);">Laptop Brand: </h4></td>   
+<td><h4 th:text="${laptop[1].brand}" style="color:red;"></h4></td>   
+</tr>   
+<tr>   
+<td><h4 style="color:rgb(128, 0, 0);">Laptop Description: </h4></td>   
+<td><h4 th:text="${laptop[1].description}" style="color:red;"></h4></td>   
+</tr> 
+<tr>   
+<td><h4 style="color:rgb(128, 0, 0);">Laptop Price: </h4></td>   
+<td><h4 th:text="${laptop[1].price}" style="color:red;"></h4></td>   
+</tr> 
+</table> 
+</body>
+</html>
